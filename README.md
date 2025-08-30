@@ -79,10 +79,11 @@ DBPassword=zabbix
 sudo systemctl enable zabbix-server zabbix-agent nginx php8.1-fpm
 # Проверяем статус
 sudo systemctl status zabbix-server
-<img width="858" height="366" alt="Перезапуск сервисов и проверка состояния" src="https://github.com/user-attachments/assets/1bcee2cf-3fba-4818-a36c-f6ad7896a579" />
+<img width="858" height="366" alt="Перезапуск сервисов и проверка состояния" src="https://github.com/user-attachments/assets/e0b99c60-5c58-45e9-a75d-424394db26a4" />
+
 # 10. В браузере открываем графический интерфейс и проходим регистрацию
 http://192.168.1.103/zabbix/
-<img width="1642" height="753" alt="Успешная регистрация в Zabbix" src="https://github.com/user-attachments/assets/c7e67312-6708-49c6-8f13-3595697f180f" />
+<img width="1642" height="753" alt="Успешная регистрация в Zabbix" src="https://github.com/user-attachments/assets/c4301f85-c2b6-4b84-b1ee-e1ff543972a8" />
 
 
 Задание 2
@@ -121,8 +122,11 @@ sudo docker run -d \
   zabbix/zabbix-agent2:alpine-6.4-latest
 
 Подключённые агенты в Zabbix Скриншот 1
-<img width="1603" height="639" alt="Агенты подключённые к серверу" src="https://github.com/user-attachments/assets/3ce8cf21-cf73-41a0-8af9-52e94a8e4618" />
+<img width="1603" height="639" alt="Агенты подключённые к серверу" src="https://github.com/user-attachments/assets/8626a449-ee07-498b-b46c-d9e17dceebee" />
+
 Проверка подключения агентов к серверу Скриншот 2
-<img width="862" height="378" alt="Проверка подключения агентов к серверу" src="https://github.com/user-attachments/assets/475d60a0-3f99-4337-9725-1152f46a6b59" />
+<img width="862" height="378" alt="Проверка подключения агентов к серверу" src="https://github.com/user-attachments/assets/305511b0-d74b-4e57-b627-8e093cbde053" />
+
 Поступающие данные в мониторинге Скриншот 3
-<img width="1913" height="989" alt="Данные поступающие на агентов в Мониторинге" src="https://github.com/user-attachments/assets/0cdc8b45-7a7f-4739-989a-83ebef59c9f8" />
+<img width="1913" height="989" alt="Данные поступающие на агентов в Мониторинге" src="https://github.com/user-attachments/assets/de4f10a5-1483-444b-8da8-9efc1a45843b" />
+
